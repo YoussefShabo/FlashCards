@@ -3,9 +3,22 @@
 {% block 'content' %}
 
 <center>
+    <div class="container">
+        <h1>Add</h1>
 
-    <h1>Add</h1>
-
+        <br />
+        {{ answer }}
+        <br />
+        <br />
+        <form action="{% url 'add' %}" method="POST">
+            {% csrf_token %}
+            <div class="mb-3">
+                <input type="text" class="form-control" placeholder="Type Your Answer Here" name="answer">
+            </div>
+            <br />
+            <button type="submit" class="btn btn-light">Submit</button>
+        </form>
+    </div>
 </center>
 
 {% endblock %}
