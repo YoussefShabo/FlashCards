@@ -104,8 +104,8 @@ def subtract(request):
 def multiply(request):
     from random import randint
 
-    num_1 = randint(0, 50)
-    num_2 = randint(0, 50)
+    num_1 = randint(0, 20)
+    num_2 = randint(0, 20)
 
     if request.method == "POST":
         answer = request.POST['answer']
@@ -153,8 +153,8 @@ def multiply(request):
 def divide(request):
     from random import randint
 
-    num_1 = randint(0, 50)
-    num_2 = randint(0, 50)
+    num_1 = randint(0, 20)
+    num_2 = randint(0, 20)
 
     if request.method == "POST":
         answer = request.POST['answer']
