@@ -10,9 +10,17 @@
             {{my_answer}}
             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
         </div>
+        <div class="sm-container">
+            <div class="num-container">
+                <h1 class="nums">{{ num_1 }}</h1>
+            </div>
 
-        <br />
-        <h1>{{ num_1 }} + {{ num_2 }}</h1>
+            <h1 class="nums">+</h1>
+
+            <div class="num-container">
+                <h1 class="nums">{{ num_2 }}</h1>
+            </div>
+        </div>
         <br />
         <br />
         <form action="{% url 'add' %}" method="POST">
