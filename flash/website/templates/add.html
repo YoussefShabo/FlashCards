@@ -3,8 +3,14 @@
 {% block 'content' %}
 
 <center>
-    {{my_answer}}
+
+
     <div class="container">
+        <div class="alert alert-{{ color }} alert-dismissible fade show" role="alert">
+            {{my_answer}}
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+
         <br />
         <h1>{{ num_1 }} + {{ num_2 }}</h1>
         <br />
