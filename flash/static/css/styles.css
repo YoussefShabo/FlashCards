@@ -14,23 +14,17 @@ body{
     position: relative;
     width: 350px;
     height: 350px;
-    border: 2px solid #ffffff;
     padding: 3%;
-    background-color: rgb(255, 255, 255);
-    border-radius: 20px;
     align-content: center;
-    filter: drop-shadow(-1px -7px 5px  rgb(188, 188, 188));
+
 }
 .num-containerR{
     position: relative;
     width: 350px;
     height: 350px;
-    border: 2px solid #ffffff;
     padding: 3%;
-    background-color: rgb(255, 255, 255);
-    border-radius: 20px;
     align-content: center;
-    filter: drop-shadow(-1px -7px 5px  rgb(188, 188, 188));
+
 }
 .back{
     position: absolute;
@@ -40,7 +34,11 @@ body{
     height: 300px;
     left: 25px;
     top: 25px;
-    border: 5px solid #d46c4e;
+    border: 5px solid rgb(141, 141, 141);
+background-image: url(https://t3.ftcdn.net/jpg/02/74/76/34/360_F_274763459_HADMcYrskkrAPtBDWqv4RHXz9QXjPoLX.jpg);
+object-fit: fill;
+    border-radius: 20px;
+    filter: drop-shadow(-1px -7px 7px  rgb(188, 188, 188));
 }
 .mid{
     position: absolute;
@@ -51,6 +49,9 @@ body{
     left: 50px;
     top: 50px;
     border: 5px solid #d4b94e;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 20px;
+    filter: drop-shadow(-1px -7px 5px  rgb(188, 188, 188));
 }
 .nums{
     position: relative;
@@ -67,17 +68,17 @@ body{
     transform: perspective(400px) rotateX(25deg) rotateY(20deg) rotateZ(-25deg) translateX(0px) translateY(0px) translateZ(0px);
 }
 .num-containerL:hover .mid{
-    transform: perspective(400px) rotateX(25deg) rotateY(20deg) rotateZ(-25deg) translateX(0px) translateY(0px) translateZ(30px);
+    transform: perspective(400px) rotateX(25deg) rotateY(20deg) rotateZ(-25deg) translateX(0px) translateY(0px) translateZ(60px);
 }
 .num-containerL:hover .nums{
-    transform: perspective(400px) rotateX(25deg) rotateY(20deg) rotateZ(-25deg) translateX(0px) translateY(0px) translateZ(60px);
+    transform: perspective(400px) rotateX(25deg) rotateY(20deg) rotateZ(-25deg) translateX(0px) translateY(0px) translateZ(80px);
 }
 .num-containerR:hover .back{
     transform: perspective(400px) rotateX(25deg) rotateY(-20deg) rotateZ(25deg) translateX(0px) translateY(0px) translateZ(0px);
 }
 .num-containerR:hover .mid{
-    transform: perspective(400px) rotateX(25deg) rotateY(-20deg) rotateZ(25deg) translateX(0px) translateY(0px) translateZ(30px);
+    transform: perspective(400px) rotateX(25deg) rotateY(-20deg) rotateZ(25deg) translateX(0px) translateY(0px) translateZ(60px);
 }
 .num-containerR:hover .nums{
-    transform: perspective(400px) rotateX(25deg) rotateY(-20deg) rotateZ(25deg) translateX(0px) translateY(0px) translateZ(60px);
+    transform: perspective(400px) rotateX(25deg) rotateY(-20deg) rotateZ(25deg) translateX(0px) translateY(0px) translateZ(80px);
 }
